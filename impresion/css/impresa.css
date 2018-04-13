@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+#navegacionPrincipal, #barraLateral, #pieNavega{
+	display:none !important;
+}
+
+#banner, #contenidoPrincipal, #pie, #principal{
+	width:auto;
+	margin:0;
+	padding:0;
+}
+
+#piePrincipal{
+	margin:0;
+}
+
+html, body, #banner, contenidoPie{
+	background-color:#FFF;
+}
+
+#banner{
+	height:auto;
+	text-align:center;
+	border-bottom:2pt solid #000;
+	/*border-top:2pt solid #000;*/
+	padding:10pt 0;
+	margin-bottom:0;
+}
+
+*{
+	color:#000 !important;
+	border:none !important;
+	background-color:#FFF !important;
+}
+
+h1{
+	font-size:30pt !important;
+}
+
+h2{
+	font-size:16pt !important
+}
+
+p, li{
+	font-size:11pt !important;
+}
+
+#piePrincipal{
+	margin-top:15pt;
+	border-top: 1pt solid #000;
+	padding-top:5pt;
+	text-align:justify;
+}
+
+a:after{
+	content:" ("attr(href)") ";
+}
